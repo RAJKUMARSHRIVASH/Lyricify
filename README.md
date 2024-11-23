@@ -2,7 +2,7 @@
 Let's Lyricify your thoughts into musical words and make magic 🤩
 
 ## Basic Folder structure:-
-
+`
 Lyricify/
 ├── client/          # Frontend (React app)
 │   ├── public/      # Static files
@@ -20,9 +20,11 @@ Lyricify/
 │   └── ...other backend files
 ├── .gitignore       # Ignore unnecessary files in Git
 └── README.md        # Documentation
+`
 
 
 ## A detailed Folder structure we can follow:-
+```
 /project-root
 │
 ├── /client                    # Frontend (React) code
@@ -58,4 +60,4 @@ Lyricify/
 │
 ├── .env                       # Environment variables (not committed to version control)
 ├── .gitignore                 # Git ignore file
-├── README.md                  # Project documentation
+├── README.md                  # Project documentation```
