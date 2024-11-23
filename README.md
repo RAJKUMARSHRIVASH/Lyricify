@@ -2,7 +2,7 @@
 Let's Lyricify your thoughts into musical words and make magic 🤩
 
 ## Basic Folder structure:-
-`
+```
 Lyricify/
 ├── client/          # Frontend (React app)
 │   ├── public/      # Static files
@@ -20,7 +20,7 @@ Lyricify/
 │   └── ...other backend files
 ├── .gitignore       # Ignore unnecessary files in Git
 └── README.md        # Documentation
-`
+```
 
 
 ## A detailed Folder structure we can follow:-
