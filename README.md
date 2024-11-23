@@ -4,22 +4,24 @@ Let's Lyricify your thoughts into musical words and make magic 🤩
 ## Basic Folder structure:-
 ```
 Lyricify/
-├── client/          # Frontend (React app)
-│   ├── public/      # Static files
-│   ├── src/         # React source code
-│   ├── package.json # Frontend dependencies
-│   ├── .env         # Frontend environment variables
-│   └── ...other frontend files
-├── server/          # Backend (Node/Express API)
-│   ├── models/      # Mongoose or other ORM models
-│   ├── routes/      # API routes
-│   ├── controllers/ # Business logic for routes
-│   ├── server.js    # Main entry point
-│   ├── package.json # Backend dependencies
-│   ├── .env         # Backend environment variables
-│   └── ...other backend files
-├── .gitignore       # Ignore unnecessary files in Git
-└── README.md        # Documentation
+├── client/              # React Native app (mobile frontend)
+│   ├── assets/          # Images, fonts, etc.
+│   ├── components/      # Reusable UI components
+│   ├── navigation/      # Navigation-related files
+│   ├── screens/         # Individual screens (Home, Lyrics, Upload, etc.)
+│   ├── services/        # API service handlers
+│   ├── utils/           # Helper functions
+│   ├── App.js           # Main entry point
+│   └── package.json     # Dependencies
+├── server/              # Backend API (Node.js)
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+└── README.md            # Documentation
+
 ```
 
 
